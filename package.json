@@ -2,6 +2,9 @@
   "name": "astro-start",
   "type": "module",
   "version": "0.0.1",
+  "browsersList": [
+    "defaults"
+  ], 
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,6 +13,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.10.7"
+    "astro": "^2.10.7",
+    "postcss": "^8.4.27",
+    "postcss-preset-env": "^9.1.1"
   }
 }
