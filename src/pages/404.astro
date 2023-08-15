@@ -1,0 +1,14 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import Link from '../components/Link.astro';
+---
+
+<MainLayout title="Oops!">
+    <div class="container" style={{ display: 'grid', placeItems: 'center', textAlign: 'center', gap: 'var(--small-sm)'}}>
+        <div>
+            <h1 class="h1">This page does not exist!</h1>
+            <p>We seem to have misplaced something...</p>
+        </div>
+        <Link href='/' style='primary' text='Go Back' icon={{ name: 'tabler:home', side: 'right' }} />
+    </div>
+</MainLayout>
